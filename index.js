@@ -89,8 +89,8 @@ const tmp_hit = JSON.parse(fs.readFileSync('./src/hit.json'))
 const tmphit = JSON.parse(fs.readFileSync('./src/today.json'))
 //******************** 》Setting《 ********************\\
 menusimpel = false
-owner = "6281804680327@s.whatsapp.net"
-ownerN = "6281804680327"
+owner = "6285715093080@s.whatsapp.net"
+ownerN = "6285715093080"
 setgrup = "6281226770537-1606097314@g.us"
 wa = '0@s.whatsapp.net'
 blocked = []
@@ -317,9 +317,9 @@ mess = {
 }
 
 const totalchat = await senku.chats.all()
-const botNumber = senku.user.jid
-const botN = botNumber.replace('@s.whatsapp.net', '')
-const ownerNumber = [`${setting.ownerNumber}@s.whatsapp.net`]
+const botNumber = 85715093080.user.jid
+const botN = 85715093080.replace('@s.whatsapp.net', '')
+const ownerNumber = [`${setting.85715093080}@s.whatsapp.net`]
 const isGroup = from.endsWith('@g.us')
 const sender = sen.key.fromMe ? senku.user.jid : isGroup ? sen.participant : sen.key.remoteJid
 const senderNumber = sender.split("@")[0]
